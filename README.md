@@ -8,7 +8,7 @@ Download and install [Node.js 4 LTS](https://nodejs.org/en/).
 ```node play```
 
 ## Listen to the audio
-Open browser at http://localhost:8125/sound.html and click "Play" button in the browser emedded html5 audio player.
+Open browser at ```http://localhost:8125/sound.html``` and click "Play" button in the browser emedded html5 audio player.
 By default server available from all network interfaces. 
 
 To receive stream in ffplay:
