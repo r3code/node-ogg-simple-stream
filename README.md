@@ -2,7 +2,7 @@
 Simple server to stream OGG file over http. Allows to play specified file in browser html5 &lt;audio>.
 
 ## Install
-Download Node.js 4.
+Download and install [Node.js 4 LTS](https://nodejs.org/en/).
 
 ## Run
 ```node play```
