@@ -36,15 +36,12 @@ function serveWithoutRanges(request, response, content) {
   var chunksize = 0;
   start = 0;
   end = content.length - 1;
-  if (request.url.match(".ogg$")) {
-    response.writeHead(200, { 
-      "Content-Type": "audio/ogg",
-      "Content-Length": end
-    });
-  }
-  else {
-    response.writeHead(200, { "Content-Type": "text/html" });
-  }
+  
+  response.writeHead(200, { 
+    "Content-Type": "audio/ogg",
+    "Content-Length": end
+  });
+
   response.end(content);
 }
 
